@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/letter.css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="body">
+        <form id="form">
+            <h2>Formal/Informal Format</h2>
+            <hr>
+            <div class="d-flex">
+                <div>
+                    <h3>Sender Information</h3>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input id="address" class="form-control" type="text" placeholder="123 Main Street">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City/Zip code</label>
+                        <input id="city" class="form-control" type="text" placeholder="Lagos, 100216">
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input id="country" class="form-control" type="text" placeholder="Nigeria">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" class="form-control" type="email" placeholder="abc123@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input id="date" class="form-control" type="date">
+                    </div>
+                </div>
+
+                <div class="ms-5">
+                    <h3>Receiver Information</h3>
+                    <div class="form-group">
+                        <label for="name1">Receiver Name</label>
+                        <input id="name1" class="form-control" type="text" placeholder="David Crayon">
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position</label>
+                        <input id="position" class="form-control" type="text" placeholder="HR Manager">
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Co-operation/Institute</label>
+                        <input id="company" class="form-control" type="text" placeholder="ABC Co-operation">
+                    </div>
+                    <div class="form-group">
+                        <label for="address1">Address</label>
+                        <input id="address1" class="form-control" type="text" placeholder="123, Business Street">
+                    </div>
+                    <div class="form-group">
+                        <label for="date1">Date</label>
+                        <input id="date1" class="form-control" type="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="dear">Dear</label>
+                        <input id="dear" class="form-control" type="text" placeholder="Sir/ma.">
+                    </div>
+                </div>
+
+                <div class="ms-5 col-6">
+                    <h3>Main Content</h3>
+                    <div class="form-group">
+                        <label for="title">Title/Header</label>
+                        <input id="title" class="form-control" type="text" placeholder="LETTER OF ...">
+                    </div>
+                    <div class="form-group">
+                        <label for="main">Body</label>
+                        <textarea name="main" id="main"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="sal">Salutation</label>
+                        <input id="sal" class="form-control" type="text" placeholder="Yours Faithfully">
+                    </div>
+                    <div class="form-group">
+                        <label for="name2">Sender Name</label>
+                        <input id="name2" class="form-control" type="text" placeholder="Lucy">
+                    </div>
+                    <div class="form-group">
+                        <label for="date2">Date</label>
+                        <input id="date2" class="form-control" type="date">
+                    </div>
+
+                </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+
+
+    <div class="letter">
+        <div class="let">
+            <div id="letter">
+                <div class="top">
+                    <p>
+                        <span class="address">Address</span>
+                        <span class="city">City</span>
+                        <span class="country">Country</span>
+                        <span class="email"></span>
+                        <span class="date">Date</span>
+                    </p>
+                </div>
+
+                <div class="bt">
+                    <p>
+                        <span class="name1">Address</span>
+                        <span class="position">position</span>
+                        <span class="company">Company</span>
+                        <span class="address1">address</span>
+                        <span class="date1">Date</span>
+                    <div class="d-flex">Dear <span class="dear">&nbsp; Ma.</span></div>
+                    </p>
+                </div>
+
+                <div class="middle">
+                    <p>
+                        <center><b><span class="title h5">Head</span></b></center><br>
+                        <span class="main">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;main</span><br><br><br>
+                        <br>
+                        <span class="sal">Yours Faithfully</span><br>
+                        <span class="name2">Samson</span><br>
+                        <span class="date2">Date</span>
+                    </p>
+                </div>
+            </div>
+            <div class="btn btn-danger col-3" id="print">DOWNLOAD PDF AND PRINT</div>
+            <div class="btn btn-danger col-3" id="back">BACK</div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

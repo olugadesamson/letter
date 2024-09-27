@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(../img/envelope-with-small-flower-branches-roses.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+P{
+    text-align: justify;
+}
+
+
+.form-group {
+    padding-bottom: 7px;
+}
+
+.form-group label{
+    padding-bottom: 5px;
+    color: purple;
+    font-size: 18px;
+}
+
+textarea{
+    width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.letter{
+    
+    background-image: url(../img/envelope-with-small-flower-branches-roses.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding: 30px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.let {
+    width: 100%;
+    height: auto;    
+    display: none;
+}
+#letter {
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#letter p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.top {
+    float: right;
+}
+
+.dears {
+    display: flex;
+    padding-top: 110px;
+}
+
+.bt {
+    padding-top: 150px;
+}
+

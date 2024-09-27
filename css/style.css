@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/envelope-with-small-flower-branches-roses.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    padding: 30px 90px;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lov {
+    color: pink;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.sign a{
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.sign a:hover{
+    background-color: gray;
+}
+
+.reason {
+    margin-top: 150px;
+    width: 40%;
+    height: auto;
+}
+
+.reason h1{
+    font-size: 90px;
+    font-weight: bolder;
+}
